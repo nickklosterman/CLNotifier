@@ -1,0 +1,6 @@
+import sys
+import urllib
+
+url='http://%s.craigslist.org/search/%s?query=%s&cat' 
+Datafile=open('Data.txt')
+data=urllib.urlopen(url).readlines()
